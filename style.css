@@ -12,14 +12,16 @@ nav {
   padding: 1.5em;
   text-align: right;
   background-color: skyblue;
-  /* border-bottom: 5px solid salmon; */
   position: fixed;
   width: 100%;
 }
-nav h1 {
-  position: absolute;
-  right: 35em;
-  bottom: 1em;
+nav .header {
+  display: flex;
+  justify-content: right;
+}
+nav .header h1 {
+  margin-right: 15em;
+  background-color: red;
 }
 ul {
   margin-right: 3em;
